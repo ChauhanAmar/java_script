@@ -224,7 +224,85 @@ tn[0].replaceChild(createdElement2,createdElement);
 //removeChild(element);
 
 //Selecting using Query
-sel=document.querySelector('.container');
-console.log(sel);
-sel=document.querySelectorAll('.container');
-console.log(sel);
+// sel=document.querySelector('.container');
+// console.log(sel);
+// sel=document.querySelectorAll('.container');
+// console.log(sel);
+
+//Events in java Script
+
+// function clicked(){
+//     console.log("The button was clicked");
+// }
+
+// window.onload=function(){
+//     console.log("Windos was loaded")
+//}
+
+// firstcontainer.addEventListener('click', function(){
+//    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked </b>"    
+//    console.log("Clicked on container")
+// })
+
+// //mouseover
+// firstcontainer=addEventListener('mouseover', function(){
+//     console.log("Mouse on container")
+// })
+
+// //mouseout
+// firstcontainer=addEventListener('mouseout', function(){
+//     console.log("Mouse out on container")
+// })
+
+//mouseup
+// let prevHTML=document.querySelectorAll('.container')[1].innerHTML;
+// firstcontainer=addEventListener('mouseup', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+//     console.log("Mouse up on container");
+// })
+
+// //mousedown
+// firstcontainer=addEventListener('mousedown', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked </b>"
+//     console.log("Mouse down on container");
+// })
+
+//Arrow function
+
+//simple function
+// function summ(a,b){
+//     return (a+b);
+// }
+//Arrow function
+// summ=(a,b)=>{
+//     return (a+b);
+// }
+
+//SetTimeout and setinterval
+logkro=()=>{
+    document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired </b>"
+console.log("I am log");
+}
+//clr= setTimeout(logkro,2000);
+//clr = setInterval(logkro,2000);
+//use ClearInterval/SetTimeout to cancel SetInterval/SetTimeout
+
+// local Storage in Java Script
+// localStorage.setItem('name','Amar')
+// localStorage
+// localStorage.getItem('name')
+// localStorage.removeItem('name')
+// localStorage.clear()
+
+// //JSON in java Script
+// obj= {name:"Amar",length:1,a: {this:'tha"t'}};
+// jso=JSON.stringify(obj);
+// console.log(typeof jso);
+// console.log(obj);
+
+// parsed= JSON.parse(`{ "name": "Amar", "length": 1, "a": {"this":"that"} }`);
+// console.log(parsed);
+
+// Template literals -- Backticks
+a=34;
+console.log(`This is ${a}`);
